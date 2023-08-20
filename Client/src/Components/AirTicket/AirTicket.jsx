@@ -12,7 +12,7 @@ const AirTicket = () => {
   return (
     <div className="w-full h-full max-w-lg pt-6 mx-auto rounded-3xl">
     <div className="flex flex-col">
-      <div className="bg-[#2C242E] relative drop-shadow-2xl rounded-3xl p-4" >
+      <div className="bg-[#2C242E] relative drop-shadow-2xl rounded-3xl p-4" onClick={ () => navigate('/booking/seat') } >
         <div className="inline-flex justify-between w-full">
           <p className="text-lg font-semibold">Earth </p> 
           <p className="text-xs text-gray-400 ">85 Hrs
