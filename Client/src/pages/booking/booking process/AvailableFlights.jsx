@@ -50,13 +50,13 @@ export const AvailableFlights = () => {
           </button>
         </div>
 
-     <AirTicket onClick={ navigate('/booking/seat') }/>
-     <AirTicket/>
-     <AirTicket/>
-     <AirTicket/>
-     <AirTicket/>
-     <AirTicket/>
-     <AirTicket/>
+     <AirTicket onClick={ () => {navigate('/booking/seat')} }/>
+     <AirTicket onClick={ () => {navigate('/booking/seat')} }/>
+     <AirTicket onClick={ () => {navigate('/booking/seat')} }/>
+     <AirTicket onClick={ () => {navigate('/booking/seat')} }/>
+     <AirTicket onClick={ () => {navigate('/booking/seat')} }/>
+     <AirTicket onClick={ () => {navigate('/booking/seat')} }/>
+     <AirTicket onClick={ () => {navigate('/booking/seat')} }/>
       </div>
     </div>
   );
